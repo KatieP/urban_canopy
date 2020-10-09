@@ -2,13 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Urban Canopy</title>
-    <link>/categories/</link>
+    <link>https://katiep.github.io/urban_canopy/categories/</link>
     <description>Recent content in Categories on Urban Canopy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://katiep.github.io/urban_canopy/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

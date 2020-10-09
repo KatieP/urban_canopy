@@ -2,13 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Team on Urban Canopy</title>
-    <link>/team/</link>
+    <link>https://katiep.github.io/urban_canopy/team/</link>
     <description>Recent content in Team on Urban Canopy</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="/team/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://katiep.github.io/urban_canopy/team/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
