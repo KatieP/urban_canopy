@@ -1,6 +1,11 @@
-baseURL = "http://example.org/"
+# baseURL = "https://energylollipop.com"
 languageCode = "en-us"
+Title = "Urban Canopy"
 title = "Urban Canopy"
-theme = "dot"
+summaryLength = 25
+paginate = 1000
+enableEmoji = true
+publishDir = "./docs"
 
-
+[markup.goldmark.renderer]
+  unsafe= true

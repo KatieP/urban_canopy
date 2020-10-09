@@ -1,0 +1,173 @@
+
+/* LANDING PAGE STYLES */
+
+ body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #8A8685;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  header.masthead {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+
+  header.masthead h1 {
+    font-size: 2rem;
+  }
+
+  @media (min-width: 768px) {
+    header.masthead {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+    header.masthead h1 {
+      font-size: 3rem;
+    }
+  }
+
+  .showcase .showcase-text {
+    padding: 3rem;
+  }
+
+  .showcase .showcase-img {
+    min-height: 15rem;
+    background-size: cover;
+  }
+
+  @media (min-width: 768px) {
+    .showcase .showcase-text {
+      padding: 7rem;
+    }
+  }
+
+  .features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .features-icons .features-icons-item {
+    max-width: 20rem;
+  }
+
+  .features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+  }
+
+  .features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+  }
+
+  .features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem;
+  }
+
+  .testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: url("../img/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .affiliates {
+    position: relative;
+    padding-top: 7rem;
+  }
+
+  .call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+
+  footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+
+  /* ------------------------------------------------------------------------------ */
+/* GENERAL STYLES */
+
+.navbar{
+    position: fixed;
+    z-index: 10;
+    background: rgba(255, 255, 255, .97) !important;
+    /* box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15); */
+    transition: top 0.2s ease-in-out !important;
+    width: 100% !important;
+    top: 0;
+}
+
+.navbar-brand{
+  color: #8A8685 !important;
+}
+
+.blog-shadows {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+img {
+  max-width: 100%
+}
+
+
+
+.submitButton {
+  background-color: #EF7D13;
+  border: none;
+  min-width: 200px;
+  padding: 10px;
+}
+
+
+.bg {
+  background-image: url('/img/background.jpeg');
+  background-size: cover;
+}
+
+
+.center{
+  text-align: center !important
+}
+
+
+a {
+  text-decoration: none; 
+  color: grey
+}
