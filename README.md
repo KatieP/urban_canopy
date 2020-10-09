@@ -2,7 +2,10 @@
 
 This is a [Hugo](https://gohugo.io) site.
 
+## How to develop
 Go to the folder with the terminal and type `hugo serve` to see the project at your `localhost:1313`.
 
-Type `hugo` and then push it to github - github pages will read the `docs` folder and serve it!
+
+## How to deploy
+Type `hugo` to build the site to docs folder and then everything to Github. Github pages will read the `docs` folder and serve it!
 
