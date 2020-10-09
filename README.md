@@ -7,5 +7,5 @@ Go to the folder with the terminal and type `hugo serve` to see the project at y
 
 
 ## How to deploy
-Type `hugo` to build the site to docs folder and then everything to Github. Github pages will read the `docs` folder and serve it!
+Type `hugo` to build the site to docs folder and then push everything to Github. Github pages will read the `docs` folder and serve it!
 
